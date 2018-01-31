@@ -1,0 +1,7 @@
+{
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/home/matthias/.local/bin/autopep8",
+    "python.linting.pylintArgs": ["--errors-only"]
+}
