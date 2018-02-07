@@ -3,5 +3,10 @@
     "window.zoomLevel": 1,
     "python.formatting.provider": "autopep8",
     "python.formatting.autopep8Path": "/home/matthias/.local/bin/autopep8",
-    "python.linting.pylintArgs": ["--errors-only"]
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--ignored-modules=numpy",
+        "--ignored-classes=numpy",
+        "--extension-pkg-whitelist=numpy"
+    ]
 }
